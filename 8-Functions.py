@@ -35,3 +35,8 @@ print(func(1,2,3,4,5,num1=32,num2=33))
 
 #RULE FOR PRECEDENCE: params,*args,default params,**kwargs
 ################################################################
+#Lambda Functions:
+#These are the one liner statement used to define a function
+minus=lambda x,y :x-y
+print(minus(19,12))
+################################################################
